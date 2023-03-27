@@ -104,5 +104,5 @@ body {
     .pouring {font-size: 50px;}    
 }
 @media and screen (max-width:480px) {    
-    .pouring {font-size: 50px;}    
+	header nav{width:100%;}
 }
