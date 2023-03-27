@@ -7,18 +7,6 @@ body {
  
  header {
   background-color: rgba(0, 0, 255, .3);}
-  /* Логотип */
-  header > img {
-  display: inline-block;
-  width: 10em;
-  margin-left: 3em;
-  vertical-align: middle;}
-  /* Название организации */
-  header > h1 {
-  display: inline-block;
-  font-size: 7em;
-  vertical-align: middle;
-  margin-left: lem;}
   /*Меню */
   header > nav {
   width: 80em;
@@ -70,7 +58,7 @@ body {
 @media (max-width:690px) {    
     .pouring {font-size: 50px;}    
 }
-@media and screen (max-width:480px) {
+@media screen and (max-width:480px) {
 	body {width:100%;}
 	header, header nav {width:100%;}
 }
