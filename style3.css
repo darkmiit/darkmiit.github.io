@@ -1,0 +1,108 @@
+body {
+    background: #fff;
+ }
+ .wrapper { 
+   margin: 600 auto;
+   width: 900px;
+   overflow: hidden;
+   margin-top: 20px;
+ }
+ .tuzik{display:flex;}
+ .info{max-width:700px;}
+ .ima,.info{margin-left:10%;}
+ @keyframes fade {
+   0%{ opacity: 0; }
+   10%{ opacity: 1; }
+   20%{ opacity: 1; }
+   30%{ opacity: 1; }
+   40%{ opacity: 0; }
+   50%{ opacity: 0; }
+   60%{ opacity: 0; }
+   70%{ opacity: 0; }
+   80%{ opacity: 0; }
+   90%{ opacity: 0;} 
+   100% { opacity: 0; }
+ }	
+ 
+ .wrapper img { 
+   position:absolute; 
+   margin: 0 auto;
+   width: 900px;
+   overflow: hidden;
+   opacity:0; 
+   animation-name: fade; 
+   animation-duration: 20s; 
+   animation-iteration-count: infinite; 
+ }
+ .wrapper img:nth-child(1) { animation-delay: 0s;  }
+ .wrapper img:nth-child(2) { animation-delay: 5s;  }
+ .wrapper img:nth-child(3) { animation-delay: 10s;  }
+ .wrapper img:nth-child(4) { animation-delay: 15s;  }
+ header {
+  background-color: rgba(0, 0, 255, .3);}
+  /* Логотип */
+  header > img {
+  display: inline-block;
+  width: 10em;
+  margin-left: 3em;
+  vertical-align: middle;}
+  /* Название организации */
+  header > h1 {
+  display: inline-block;
+  font-size: 7em;
+  vertical-align: middle;
+  margin-left: lem;}
+  /*Меню */
+  header > nav {
+  width: 80em;
+  border-top: 1px solid black;}
+  /* Пункты меню */
+  header > nav > a {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+  margin-left: 3em;}
+  /* Посещенные ссылки */
+  header > nav > a:visited {
+  color: black;}
+ 
+ 
+.pouring {
+	-webkit-animation: blink 2s linear infinite; 
+	animation: blink 2s linear infinite; 
+	font-size: 40px;
+    line-height: 50px;
+    font-family: Verdana, sans-serif;
+    font-weight: 900;
+    position: relative;
+    background: white;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+@-webkit-keyframes blink { 
+	0% { color: #F00; }
+	50% { color: #610000; }
+	100% { color: #F00; }
+}
+
+@keyframes blink {  
+	0% { color: #F00; }
+	50% { color: #610000;} 
+	100% { color: #F00; } 
+}
+@keyframes ani {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+@media (max-width:690px) {    
+    .pouring {font-size: 50px;}    
+}
+@media and screen (max-width:480px) {    
+    .pouring {font-size: 50px;}    
+}
