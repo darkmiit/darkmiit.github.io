@@ -4,7 +4,22 @@ body {
  .tuzik{display:flex;}
  .info{max-width:700px;}
  .ima,.info{margin-left:10%;}
- 
+ header {
+  background-color: rgba(0, 0, 255, .3);}
+  /*Меню */
+  header > nav {
+  width: 100%;
+  border-top: 1px solid black;}
+  /* Пункты меню */
+  header > nav > a {
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+  margin-left: 3em;}
+  /* Посещенные ссылки */
+  header > nav > a:visited {
+  color: black;}
+  
  
  
  
