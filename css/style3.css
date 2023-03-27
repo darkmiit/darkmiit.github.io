@@ -1,8 +1,8 @@
 body {
     background: #fff;
  }
- .tuzik{display:flex; font-size:50px;}
- .info{max-width:700px;}
+ .tuzik{display:flex;}
+ .info{max-width:700px; font-size:50px;}
  .ima,.info{margin-left:10%;}
  header {
   background-color: rgba(0, 0, 255, .3);}
